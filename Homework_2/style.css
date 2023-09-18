@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    background-color: #1c1844;
+}
+
+.test{
+    color: white;
+}
+
+button{
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease;
+    opacity: 100%;
+    width: 200px;
+    height: 100px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10rem;
+    background-color: #5126d0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 5px #5126d0;
+}
+
+button:hover{
+    background-color: #654bc0;
+    box-shadow: 0 2px 5px #654bc0;
+}
+
+#start-game-button-block{
+    position: absolute;
+    margin-left: 42.5%;
+}
+
+#start-game-button{
+    margin-top: 200px;
+}
+
+#boards{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.board{
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.board:not(:last-of-type){
+    margin-right: 200px;
+}
+
+.board-field{
+    float: left;
+    margin: 1px;
+    width: 9%;
+    height: 9%;
+    border: 1px solid #622dff;
+    border-radius: 5px;
+}
+
+.board-title{
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    font-size: 20px;
+    background-color: #622dff;
+    border-radius: 10rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
