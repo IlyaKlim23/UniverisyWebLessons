@@ -5,17 +5,25 @@ namespace Web;
 
 public class Configurator
 {
-    private readonly AppSettings _config;
+    private static readonly Configurator instance = new Configurator();
 
-    public Configurator(string path)
+    private AppSettings Configuration { get; set; }
+
+    public static string Address { get; private set; }
+    public static int Port { get; private set; }
+    public static string StaticFilesPath { get; private set; }
+    
+    private Configurator()
     {
-        using var file = File.OpenRead(path);
-        _config = JsonSerializer.Deserialize<AppSettings>(file) ?? throw new Exception();
+        Configuration = GetConfig();
+        Address = Configuration.Address;
+        Port = Configuration.Port;
+        StaticFilesPath = Configuration.StaticFilesPath; 
     }
 
-    public string GetAddress() => _config.Address;
-
-    public int GetPort() => _config.Port;
-
-    public string GetStaticFilesPath() => _config.StaticFilesPath;
+    private static AppSettings GetConfig()
+    {
+        using var file = File.OpenRead("appsettings.json"); 
+        return JsonSerializer.Deserialize<AppSettings>(file) ?? throw new Exception();
+    }
 }

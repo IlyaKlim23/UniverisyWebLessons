@@ -1,4 +1,4 @@
 ﻿using Web;
 
-ServerController serverController = new ServerController("appsettings.json");
+ServerController serverController = new ServerController();
 serverController.ServerRun();

@@ -5,19 +5,16 @@ namespace Web;
 public class ServerLauncher
 {
     private readonly HttpListener _server;
-
-    private readonly Configurator _configurator;
-
-    public ServerLauncher(Configurator configurator)
+    
+    public ServerLauncher()
     {
         _server = new HttpListener();
-        _configurator = configurator;
         SetListenerAddress();
     }
 
     private void SetListenerAddress()
     {
-        _server.Prefixes.Add($"http://{_configurator.GetAddress()}:{_configurator.GetPort()}/");
+        _server.Prefixes.Add($"http://{Configurator.Address}:{Configurator.Port}/");
     }
 
     private string GetUrl(HttpListenerContext context)
@@ -26,7 +23,7 @@ public class ServerLauncher
 
         if (url == null) throw new ArgumentNullException(url);
 
-        if (url.Split('.')[^1] == "html" && Directory.GetFiles($"{_configurator.GetStaticFilesPath()}/")
+        if (url.Split('.')[^1] == "html" && Directory.GetFiles($"{Configurator.StaticFilesPath}/")
                 .FirstOrDefault(x => x.Split('/')[^1] == url.Trim('/')) == null)
         {
             url = "/not_found_page.html";
@@ -51,7 +48,7 @@ public class ServerLauncher
 
     private async void SendData(HttpListenerResponse response, string url)
     {
-        var str = await File.ReadAllBytesAsync($"{_configurator.GetStaticFilesPath()}/{url}");
+        var str = await File.ReadAllBytesAsync($"{Configurator.StaticFilesPath}/{url}");
 
         response.ContentLength64 = str.Length;
         await using var output = response.OutputStream;

@@ -2,23 +2,16 @@ namespace Web;
 
 public class ServerController
 {
-    private readonly Configurator _configurator;
-
-    public ServerController(string settingsPath)
-    {
-        _configurator = new Configurator(settingsPath);
-    }
-
     private void CheckDirectories()
     {
         if (Directory.GetDirectories(Directory.GetCurrentDirectory())
-                .FirstOrDefault(x => x.Split('/')[^1] == _configurator.GetStaticFilesPath()) == null)
+                .FirstOrDefault(x => x.Split('/')[^1] == Configurator.StaticFilesPath) == null)
         {
-            Directory.CreateDirectory($"{Directory.GetCurrentDirectory()}/{_configurator.GetStaticFilesPath()}");
-            Console.WriteLine($"Каталог \"{_configurator.GetStaticFilesPath()}\" был создан");
+            Directory.CreateDirectory($"{Directory.GetCurrentDirectory()}/{Configurator.StaticFilesPath}");
+            Console.WriteLine($"Каталог \"{Configurator.StaticFilesPath}\" был создан");
         }
 
-        if (Directory.GetFiles($"{_configurator.GetStaticFilesPath()}/")
+        if (Directory.GetFiles($"{Configurator.StaticFilesPath}/")
                 .FirstOrDefault(x => x.Split('/')[^1] == "index.html") == null)
         {
             throw new FileNotFoundException("index.html");
@@ -30,7 +23,7 @@ public class ServerController
         try
         {
             CheckDirectories();
-            var serverController = new ServerLauncher(_configurator);
+            var serverController = new ServerLauncher();
             serverController.StartServer();
         }
         catch (FileNotFoundException ex)
