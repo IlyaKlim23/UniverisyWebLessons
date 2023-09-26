@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация в Battle.net</title>
+    <link rel="stylesheet" href="battlenet/styles/style.css">
+    <link rel="icon" href="battlenet/images/favicon.ico">
+</head>
+
+<body>
+    <div style="display: flex; align-items: center; justify-content: center">
+        <div style="display: inherit; flex-direction: column; align-items: inherit;">
+            <div>
+                <img alt="image" style="width: 240px; height: 70px" src="https://bnetaccount.akamaized.net/login/static/images/toolkit/defaults/logos/bnet/logo-horizontal-color-light.1z1fI.svg">
+            </div>
+            <h1 id="page-title">Авторизоваться</h1>
+            <div class="login-block">
+                <button class="icon-button" id="google-button" title="Авторизоваться с помощью Google">
+                    <img alt="image" class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/google-logo-color.svg"></img>
+                </button>
+                <button class="icon-button" id="facebook-button" title="Авторизоваться с помощью Facebook">
+                    <img alt="image" class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/facebook-logo-white.svg"></img>
+                </button>
+                <button class="icon-button" id="apple-button" title="Авторизоваться с помощью Apple">
+                    <img alt="image" class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/apple-logo-black.svg"></img>
+                </button>
+            </div>
+            <div class="login-block">
+                <button class="icon-button" id="xbox-button" title="Авторизоваться с помощью Xbox">
+                    <img alt="image"  class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/xbox-logo-white.svg">
+                </button>
+                <button class="icon-button" id="playstation-button" title="Авторизоваться с помощью PlayStation">
+                    <img alt="image"  class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/playstation-logo-white.svg">
+                </button>
+                <button class="icon-button" id="nintendo-button" title="Авторизоваться с помощью Nintendo">
+                    <img alt="image"  class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/switch-logo-white.svg">
+                </button>
+                <button class="icon-button" id="steam-button" title="Авторизоваться с помощью Steam">
+                    <img alt="image" class="icon-image" src="https://bnetaccount.akamaized.net/login/static/images/login/social/steam-logo-black.svg">
+                </button>
+            </div>
+            <div class="separator">
+                <span>или войти через</span>
+            </div>
+            <form>
+                <div class="input-container">
+                    <div class="login">
+                        <input placeholder="Электронная почта или телефон">
+                    </div>
+                    <div class="login">
+                        <input placeholder="Пароль" type="password">
+                        <span class="password-button">
+                            <img height="16px" width="18px" class="password-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIiBzdHlsZT0iJiMxMDsgICAgZmlsbDogIzAwYWVmZjsmIzEwOyI+PHBhdGggZD0iTTU2OS4zNTQgMjMxLjYzMUM1MTIuOTY5IDEzNS45NDkgNDA3LjgxIDcyIDI4OCA3MiAxNjguMTQgNzIgNjMuMDA0IDEzNS45OTQgNi42NDYgMjMxLjYzMWE0Ny45OTkgNDcuOTk5IDAgMCAwIDAgNDguNzM5QzYzLjAzMSAzNzYuMDUxIDE2OC4xOSA0NDAgMjg4IDQ0MGMxMTkuODYgMCAyMjQuOTk2LTYzLjk5NCAyODEuMzU0LTE1OS42MzFhNDcuOTk3IDQ3Ljk5NyAwIDAgMCAwLTQ4LjczOHpNMjg4IDM5MmMtNzUuMTYyIDAtMTM2LTYwLjgyNy0xMzYtMTM2IDAtNzUuMTYyIDYwLjgyNi0xMzYgMTM2LTEzNiA3NS4xNjIgMCAxMzYgNjAuODI2IDEzNiAxMzYgMCA3NS4xNjItNjAuODI2IDEzNi0xMzYgMTM2em0xMDQtMTM2YzAgNTcuNDM4LTQ2LjU2MiAxMDQtMTA0IDEwNHMtMTA0LTQ2LjU2Mi0xMDQtMTA0YzAtMTcuNzA4IDQuNDMxLTM0LjM3OSAxMi4yMzYtNDguOTczbC0uMDAxLjAzMmMwIDIzLjY1MSAxOS4xNzMgNDIuODIzIDQyLjgyNCA0Mi44MjNzNDIuODI0LTE5LjE3MyA0Mi44MjQtNDIuODIzYzAtMjMuNjUxLTE5LjE3My00Mi44MjQtNDIuODI0LTQyLjgyNGwtLjAzMi4wMDFDMjUzLjYyMSAxNTYuNDMxIDI3MC4yOTIgMTUyIDI4OCAxNTJjNTcuNDM4IDAgMTA0IDQ2LjU2MiAxMDQgMTA0eiIvPjwvc3ZnPg==">
+                        </span>
+                    </div>
+                </div>
+                <button class="authorization-button">
+                    Авторизоваться
+                </button>
+
+            </form>
+            <ul class="links">
+                <li>
+                    <a href="" class="link">
+                        Зарегистрируйте учетную запись Battle.net бесплатно
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        Вы не можете войти?
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul class="list-info">
+            <li>
+                <a href="">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ BLIZZARD</a>
+            </li>
+            <li>
+                <a href="">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+            </li>
+            <li>
+                <a href="">УСЛОВИЯ</a>
+            </li>
+            <li>
+                <a href="">АВТОРСКОЕ ПРАВО</a>
+            </li>
+            <li>
+                <a href="">ФАЙЛЫ COOKIE</a>
+            </li>
+            <li>
+                <a href="">ПАРАМЕТРЫ COOKIE</a>
+            </li>
+        </ul>
+        <div>
+            © BLIZZARD ENTERTAINMENT, INC., 2023
+        </div>
+    </footer>
+</body>
+</html>
