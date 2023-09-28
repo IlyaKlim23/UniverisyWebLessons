@@ -1,9 +1,5 @@
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.Net;
-using System.Reflection;
 using System.Text.Json;
-using Web.Attributes;
 using Web.Models;
 
 namespace Web;
@@ -57,6 +53,7 @@ public class ServerLauncher
 
             var response = context.Response;
             var request = context.Request;
+            
             if (request.HttpMethod == "POST")
             {
                 var postBody = GetFromPostMethod(request);
@@ -87,11 +84,12 @@ public class ServerLauncher
         var sender = new EmailSender();
         sender.SendMessage("Information", message);
     }
-
+    
     private async void SendData(HttpListenerResponse response, string url)
     {
         var str = await File.ReadAllBytesAsync($"{Configurator.StaticFilesPath}/{url}");
-
+        
+        response.ContentType = ContentTypeManager.GetContentType(url);
         response.ContentLength64 = str.Length;
         await using var output = response.OutputStream;
 
