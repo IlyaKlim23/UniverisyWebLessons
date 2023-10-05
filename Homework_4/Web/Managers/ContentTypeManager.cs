@@ -11,7 +11,7 @@ public static class ContentTypeManager
 
     public static string? GetContentType(string path) =>
         _supportedType
-            .TryGetValue(Path.GetExtension(path).ToLower(), out string type) 
+            .TryGetValue(Path.GetExtension(path).ToLower(), out string? type) 
             ? type 
             : null;
 }

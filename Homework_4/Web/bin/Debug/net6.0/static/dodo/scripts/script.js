@@ -7,7 +7,7 @@ function submitForm(event) {
     let obj = {};
     formData.forEach((value, key) => obj[key] = value);
 
-    let request = new Request(event.target.action, {
+    let response = fetch(event.target.action, {
         method: 'POST',
         body: JSON.stringify(obj),
         headers: {
@@ -15,14 +15,13 @@ function submitForm(event) {
         },
     });
 
-    fetch(request).then(
-        function(response) {
-            console.log(response);
-        },
-        function(error) {
-            console.error(error);
-        }
-    );
+    alert("Успешно отправлено");
+
+    // Swal.fire(
+    //     'Успешно',
+    //     'Сообщение отправлено!',
+    //     'success'
+    // )
 
     console.log('Запрос отправляется');
 }

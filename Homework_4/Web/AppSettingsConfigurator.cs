@@ -3,9 +3,9 @@ using Web.Configuration;
 
 namespace Web;
 
-public class Configurator
+public class AppSettingsConfigurator
 {
-    private static readonly Configurator instance = new Configurator();
+    private static readonly AppSettingsConfigurator instance = new AppSettingsConfigurator();
 
     private AppSettings Configuration { get; set; }
 
@@ -13,7 +13,7 @@ public class Configurator
     public static int Port { get; private set; }
     public static string StaticFilesPath { get; private set; }
     
-    private Configurator()
+    private AppSettingsConfigurator()
     {
         Configuration = GetConfig();
         Address = Configuration.Address;

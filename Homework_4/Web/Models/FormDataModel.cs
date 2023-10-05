@@ -8,25 +8,26 @@ namespace Web.Models;
 
 public interface IDataModel
 {
+    string GetEmail();
     string ConvertToString();
 }
 
 public class FormDataModel: IDataModel
 {
     [Name("Имя")]
-    public string FirstName { get; set; }
+    public string? FirstName { get; set; }
 
     [Name("Фамилия")]
-    public string SecondName { get; set; }
+    public string? SecondName { get; set; }
 
     [Name("Дата Рождения")]
-    public string BirthDate { get; set; }
+    public string? BirthDate { get; set; }
 
     [Name("Номер Телефона")]
-    public string PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
     
     [Name("Ссылка на соц. сеть")]
-    public string SocialNetworkLink { get; set; }
+    public string Email { get; set; }
     
     public string ConvertToString()
     {
@@ -38,4 +39,6 @@ public class FormDataModel: IDataModel
         }
         return result.ToString();
     }
+
+    public string GetEmail() => Email;
 }

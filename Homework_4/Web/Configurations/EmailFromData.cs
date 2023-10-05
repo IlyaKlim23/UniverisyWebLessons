@@ -1,12 +1,14 @@
 namespace Web.Configuration;
 
-public class EmailData
+public class EmailFromData
 {
     public string? EmailFrom { get; set; }
-    
-    public string? EmailTo { get; set; }
     
     public string? Password { get; set; }
     
     public string? DisplayName { get; set; }
+    
+    public string? Host { get; set; }
+    
+    public int? Port { get; set; }
 }

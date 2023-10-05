@@ -319,13 +319,14 @@
                     </form>
                 </div>
                 <div style="width: 40%; float: right; margin-right: 10%;">
+                    <label style="font-weight: bold; font-size: x-large; color: red">Форма, которая отправляется на почту<br>(для отправки нажмите кнопку "Отправить")!!!!!!!!!</label>
                     <form id="send-form" action="http://127.0.0.1:2323/dodo/index.html">
                         <input class="text-input" type="text" id="first-name" name="FirstName" placeholder="Имя">
                         <input class="text-input" type="text" id="second-name" name="SecondName" placeholder="Фамилия">
                         <input class="text-input" style="width: 43%; float: left;" id="birth-date" name="BirthDate" type="text"
                             placeholder="День рождения">
                         <input class="text-input" style="width: 43%; float: right;" type="text" id="phone-number" name="PhoneNumber" placeholder="Телефон">
-                        <input class="text-input" style="margin-bottom: 0;" type="email" id="mail" name="SocialNetworkLink" placeholder="Почта">
+                        <input class="text-input" style="margin-bottom: 0;" type="email" id="mail" name="Email" placeholder="Почта">
                     </form>
                     <div class="footnote">По желанию. На случай, если не дозвонимся по телефону.</div>
                 </div>
@@ -457,6 +458,8 @@
         </div>
     </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="dodo/scripts/script.js"></script>
+
 </body>
 </html>

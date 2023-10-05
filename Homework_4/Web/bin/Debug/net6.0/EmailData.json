@@ -1,6 +1,7 @@
 {
   "EmailFrom": "iljuhaklimkin@yandex.ru",
-  "EmailTo": "klimkin_ilya2004@mail.ru",
-  "Password": "gtjczpcggemfjvdd",
-  "DisplayName": "Ilya"
+  "Password": "qrogapghjnheyxmn",
+  "DisplayName": "Ilya",
+  "Host": "smtp.yandex.ru",
+  "Port": 25
 }
