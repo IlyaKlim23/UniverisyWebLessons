@@ -1,17 +1,19 @@
 namespace Web;
 
-public class ServerController
+public static class ServerController
 {
-    private void CheckDirectories()
+    private static bool _isRunning = true;
+    
+    private static void CheckDirectories()
     {
         if (Directory.GetDirectories(Directory.GetCurrentDirectory())
-                .FirstOrDefault(x => x.Split('/')[^1] == Configurator.StaticFilesPath) == null)
+                .FirstOrDefault(x => x.Split('/')[^1] == AppSettingsConfigurator.StaticFilesPath) == null)
         {
-            Directory.CreateDirectory($"{Directory.GetCurrentDirectory()}/{Configurator.StaticFilesPath}");
-            Console.WriteLine($"Каталог \"{Configurator.StaticFilesPath}\" был создан");
+            Directory.CreateDirectory($"{Directory.GetCurrentDirectory()}/{AppSettingsConfigurator.StaticFilesPath}");
+            Console.WriteLine($"Каталог \"{AppSettingsConfigurator.StaticFilesPath}\" был создан");
         }
 
-        foreach (var directory in Directory.GetDirectories(Configurator.StaticFilesPath))
+        foreach (var directory in Directory.GetDirectories(AppSettingsConfigurator.StaticFilesPath))
         {
             if (Directory.GetFiles($"{directory}/")
                     .FirstOrDefault(x => x.Split('/')[^1] == "index.html") == null)
@@ -21,13 +23,26 @@ public class ServerController
         }
     }
 
-    public void ServerRun()
+    public static void ServerRun()
     {
+        Console.CancelKeyPress += delegate (object? sender, ConsoleCancelEventArgs e)
+        {
+            e.Cancel = true;
+            _isRunning = false;
+        };
+        
         try
         {
             CheckDirectories();
-            var serverController = new ServerLauncher();
-            serverController.StartServer();
+            using (var server = new HttpServer())
+            {
+                server.Start();
+
+                while (Console.ReadLine() != "stop" && _isRunning)
+                {
+                    
+                }
+            }
         }
         catch (FileNotFoundException ex)
         {
