@@ -6,9 +6,9 @@ namespace Web.Handlers;
 
 public class ControllersHandler: Handler
 {
-    public override void HandleRequest(HttpListenerContext _httpContext)
+    public override void HandleRequest(HttpListenerContext context)
     {
-        var uriSegments = _httpContext.Request.Url.Segments;
+        var uriSegments = context.Request.Url.Segments;
         string[] strParams = uriSegments
             .Skip(1)
             .Select(s => s.Replace("/", ""))
