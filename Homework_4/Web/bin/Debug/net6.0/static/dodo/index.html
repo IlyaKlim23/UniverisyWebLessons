@@ -320,7 +320,7 @@
                 </div>
                 <div style="width: 40%; float: right; margin-right: 10%;">
                     <label style="font-weight: bold; font-size: x-large; color: red">Форма, которая отправляется на почту<br>(для отправки нажмите кнопку "Отправить")!!!!!!!!!</label>
-                    <form id="send-form" method="post" action="http://127.0.0.1:2323/dodo">
+                    <form id="send-form" action="account/SendToEmail">
                         <input class="text-input" type="text" id="first-name" name="FirstName" placeholder="Имя">
                         <input class="text-input" type="text" id="second-name" name="SecondName" placeholder="Фамилия">
                         <input class="text-input" style="width: 43%; float: left;" id="birth-date" name="BirthDate" type="text"
@@ -458,8 +458,7 @@
         </div>
     </footer>
 
-<!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
-<!--<script src="dodo/scripts/script.js"></script>-->
+<script src="dodo/scripts/script.js"></script>
 
 </body>
 </html>

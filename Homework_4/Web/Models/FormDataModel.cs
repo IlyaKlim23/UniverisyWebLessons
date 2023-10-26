@@ -1,5 +1,3 @@
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using System.Text;
 using Web.Attributes;
@@ -28,15 +26,17 @@ public class FormDataModel: IDataModel
     
     [Name("Ссылка на соц. сеть")]
     public string Email { get; set; }
-    
+
     public string ConvertToString()
     {
         var result = new StringBuilder();
         foreach (var field in typeof(FormDataModel).GetProperties())
         {
-            result.Append($"{((NameAttribute)field.GetCustomAttribute(typeof(NameAttribute), false)!).Value}: {field.GetValue(this)}");
+            result.Append(
+                $"{((NameAttribute)field.GetCustomAttribute(typeof(NameAttribute), false)!).Value}: {field.GetValue(this)}");
             result.Append('\n');
         }
+
         return result.ToString();
     }
 

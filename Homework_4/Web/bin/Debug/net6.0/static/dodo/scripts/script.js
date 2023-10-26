@@ -17,11 +17,5 @@ function submitForm(event) {
 
     alert("Успешно отправлено");
 
-    // Swal.fire(
-    //     'Успешно',
-    //     'Сообщение отправлено!',
-    //     'success'
-    // )
-
     console.log('Запрос отправляется');
 }

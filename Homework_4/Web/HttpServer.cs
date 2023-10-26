@@ -7,7 +7,6 @@ public class HttpServer : IDisposable
 {
     private readonly CancellationTokenSource _cancellationTokenSource;
     private readonly HttpListener _server;
-    private readonly Handler _postMethodHandler;
     private readonly Handler _staticHandler;
     private readonly Handler _controllersHandler;
 
@@ -18,7 +17,6 @@ public class HttpServer : IDisposable
             .Add($"http://{AppSettingsConfigurator.Address}:{AppSettingsConfigurator.Port}/");
         _cancellationTokenSource = new CancellationTokenSource();
 
-        _postMethodHandler = new PostMethodHandler();
         _staticHandler = new StaticFilesHandler();
         _controllersHandler = new ControllersHandler();
     }
@@ -29,9 +27,8 @@ public class HttpServer : IDisposable
         {
             var context = _server.GetContext();
             
-            _postMethodHandler.Successor = _staticHandler;
             _staticHandler.Successor = _controllersHandler;
-            _postMethodHandler.HandleRequest(context);
+            _staticHandler.HandleRequest(context);
         }
     }
 
