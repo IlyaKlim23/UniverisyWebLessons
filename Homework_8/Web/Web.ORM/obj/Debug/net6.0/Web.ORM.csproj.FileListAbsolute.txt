@@ -1,0 +1,24 @@
+C:\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.deps.json
+C:\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.dll
+C:\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.pdb
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.csproj.AssemblyReference.cache
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.AssemblyInfoInputs.cache
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.AssemblyInfo.cs
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.csproj.CoreCompileInputs.cache
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.dll
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\refint\Web.ORM.dll
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.pdb
+C:\SemistryWork\Web.ORM\obj\Debug\net6.0\ref\Web.ORM.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.deps.json
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\bin\Debug\net6.0\Web.ORM.pdb
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.csproj.AssemblyReference.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.AssemblyInfoInputs.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.AssemblyInfo.cs
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.csproj.CoreCompileInputs.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\refint\Web.ORM.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\Web.ORM.pdb
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web.ORM\obj\Debug\net6.0\ref\Web.ORM.dll

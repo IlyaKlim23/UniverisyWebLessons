@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rMV1ZlgfhKhXZ2TWrYN8mKrjFFo99nwaA+Ypv+XBn9VTB41UkS9rhXEs2R5MlGgvn1v9c0n0f6MlAJPu0NjfxQ==",
+  "success": true,
+  "projectFilePath": "C:\\C# projects\\Web\\Web\\Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\klimk\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",
+    "C:\\Users\\klimk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

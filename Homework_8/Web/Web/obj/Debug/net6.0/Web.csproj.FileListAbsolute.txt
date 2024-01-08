@@ -1,0 +1,113 @@
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/Web
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/Web.deps.json
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/Web.runtimeconfig.json
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/Web.dll
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/Web.pdb
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.csproj.AssemblyReference.cache
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.AssemblyInfoInputs.cache
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.AssemblyInfo.cs
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.csproj.CoreCompileInputs.cache
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.dll
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.pdb
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/Web.genruntimeconfig.cache
+/home/ilklmkn/RiderProjects/Web/Web/obj/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/RiderProjects/Web/Web/bin/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/Web
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/Web.deps.json
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/Web.runtimeconfig.json
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/Web.dll
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/WebLessons/Web/Web/bin/Debug/net6.0/Web.pdb
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.csproj.AssemblyReference.cache
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.AssemblyInfoInputs.cache
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.AssemblyInfo.cs
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.csproj.CoreCompileInputs.cache
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.dll
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.pdb
+/home/ilklmkn/WebLessons/Web/Web/obj/Debug/net6.0/Web.genruntimeconfig.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/Web
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/Web.deps.json
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/Web.runtimeconfig.json
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/bin/Debug/net6.0/Web.pdb
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.csproj.AssemblyReference.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.AssemblyInfoInputs.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.AssemblyInfo.cs
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.csproj.CoreCompileInputs.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.pdb
+/home/ilklmkn/UniverisyWebLessons/Homework_3/Web/obj/Debug/net6.0/Web.genruntimeconfig.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/Web
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/Web.deps.json
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/Web.runtimeconfig.json
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/bin/Debug/net6.0/Web.pdb
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.csproj.AssemblyReference.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.AssemblyInfoInputs.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.AssemblyInfo.cs
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.csproj.CoreCompileInputs.cache
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/ref/Web.dll
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.pdb
+/home/ilklmkn/UniverisyWebLessons/Homework_4/Web/obj/Debug/net6.0/Web.genruntimeconfig.cache
+C:\UniverisyWebLessons\Homework_4\Web\bin\Debug\net6.0\Web.exe
+C:\UniverisyWebLessons\Homework_4\Web\bin\Debug\net6.0\Web.deps.json
+C:\UniverisyWebLessons\Homework_4\Web\bin\Debug\net6.0\Web.runtimeconfig.json
+C:\UniverisyWebLessons\Homework_4\Web\bin\Debug\net6.0\Web.dll
+C:\UniverisyWebLessons\Homework_4\Web\bin\Debug\net6.0\Web.pdb
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.csproj.AssemblyReference.cache
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.AssemblyInfoInputs.cache
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.AssemblyInfo.cs
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.csproj.CoreCompileInputs.cache
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.dll
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\refint\Web.dll
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.pdb
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\Web.genruntimeconfig.cache
+C:\UniverisyWebLessons\Homework_4\Web\obj\Debug\net6.0\ref\Web.dll
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.exe
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.deps.json
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.runtimeconfig.json
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.dll
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.pdb
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.AssemblyReference.cache
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.AssemblyInfoInputs.cache
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.AssemblyInfo.cs
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.CoreCompileInputs.cache
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.dll
+C:\SemistryWork\Web\obj\Debug\net6.0\refint\Web.dll
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.pdb
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.genruntimeconfig.cache
+C:\SemistryWork\Web\obj\Debug\net6.0\ref\Web.dll
+C:\SemistryWork\Web\bin\Debug\net6.0\Npgsql.dll
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.ORM.dll
+C:\SemistryWork\Web\bin\Debug\net6.0\Web.ORM.pdb
+C:\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.CopyComplete
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.exe
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.deps.json
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.runtimeconfig.json
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.pdb
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Npgsql.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.ORM.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\bin\Debug\net6.0\Web.ORM.pdb
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.AssemblyReference.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.AssemblyInfoInputs.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.AssemblyInfo.cs
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.CoreCompileInputs.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.csproj.CopyComplete
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\refint\Web.dll
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.pdb
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\Web.genruntimeconfig.cache
+C:\Users\klimk\OneDrive\Рабочий стол\SemistryWork\Web\obj\Debug\net6.0\ref\Web.dll
